@@ -1,6 +1,8 @@
 LineageOS
 ===========
 
+**'tis the damn manifest which i downloaded in February 2021. For some reason, [we](https://github.com/Exynos3475/android_device_samsung_j1xlte/tree/lineage-17.1) can't boot the rom with latest LineageOS manifest, so we'll have to use this, at least for now.**
+
 Getting started
 ---------------
 
@@ -9,11 +11,11 @@ familiar with [Repo](https://source.android.com/source/using-repo.html) and [Ver
 
 To initialize your local repository using the LineageOS trees, use a command like this:
 ```
-repo init -u git://github.com/LineageOS/android.git -b lineage-17.1
+repo init -u git://github.com/wecouldcalliteven/android.git -b lineage-17.1
 ```
 Then to sync up:
 ```
-repo sync
+repo sync --force-sync
 ```
 Please see the [LineageOS Wiki](https://wiki.lineageos.org/) for building instructions, by device.
 
